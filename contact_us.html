@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>contact us</title>
+        <link href="mystyle.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+			#a111
+			{border: -1px solid yellow;
+
+			color: black;
+
+			text-decoration: none;
+
+			padding: 5px;
+
+			margin-left: -94px;
+
+			background: green;
+			}
+			form
+			{
+    			margin-right: 274px;
+    			margin-top: 157px;
+    			margin-left: 376px;
+			
+			}
+			
+		</style>
+		<script src="myscript.js"></script>
+	</head>
+    
+    
+    
+     <div id="di1">
+	    <h1 id="hh">GREEN VALEY SCHOOL</h1>
+        <h2 id="hhc">Jhanjharpur Madhubani</h2>
+        
+    
+        <div id="menu">
+		<ul>
+        
+	    	  <li><a  href="school.html">home</a></li>
+  <li ><a  href="about.html">about us</a>
+              		<ul >
+              			<li><a href="ourmission.html">our mission</a></li>
+                        <li><a href="ourvision.html">Our vision</a></li>
+                		<li><a href="ourmanagement.html">Our Managemen</a></li>
+              		</ul></li>
+          <li><a  href="academics.html">academics</a></li>
+    	  <li><a  href="activities.html">activities</a></li>
+    	  <li><a  href="gallery.html">Gallery</a></li>
+   	  <li><a  href="contact_us.html">contact us</a>
+              	<ul >
+                	<li id="ll1"><a href="admission_enquiry.html"> Admission Enquiry</a></li>
+                    <li><a href="parent_login.html">Parent Lgin</a></li>
+                    <li><a href="School_login.html">School Login</a></li>
+                    <li><a href="Admin_login.html">Admin Login</a></li>
+                </ul></li>
+		</ul>
+        </div>
+    </div>
+	<body>
+		<form action="sb.php" method="post" onSubmit="return validation()">
+			<table>
+				<tr>
+					<td>name</td>
+					<td><input type="name" name="name" placeholder="name"/></td>
+				</tr>
+				<tr>
+					<td>email </td>
+					<td ><input type="email" name="email" placeholder="username"/></td>
+				</tr>
+				<tr>
+					<td>password </td>
+					<td><input type="password" name="password" placeholder="password"/></td>
+				</tr>
+				<tr>
+					<td>gender</td>
+					<td><input type="radio" name="gender" value="M"/>M<input type="radio" name="gender" value="f"/>f</td>
+				</tr>
+				<tr>
+					<td>class</td>
+					<td>
+					    <select  name="class" id="class">
+							<option  value="8"> 8</option>
+							<option  value="9">9</option>
+							<option  value="10">10</option>
+						</select>
+					</td>
+					</tr>
+					<tr>
+					<td>carrier</td>
+					<td>
+						<select name="carrier" id="carrier" >
+							<option  value="iiT">IIT</option>
+							<option  value="medical">MEDICAL</option>
+							<option value="defence">DEFENCE</OPTION>
+						</select>
+					</td>
+				</tr>
+				<tr>	
+					<td><input type="submit" value="register"/></td>
+					<td><input type="reset" ></td>
+					<td><a href="show_data.html">show data</a></td>
+					
+				</tr>
+			</table>
+		</form>
+		<!-- <form id="f1">
+			<input type="button" value="show data" onclick="window.location.href='show_data.html'" />
+		</form> -->
+		<a id ="a111" href="show data"></a>
+	</body>
+</html>

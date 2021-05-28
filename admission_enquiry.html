@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>admission enuiry</title>
+        <link href="mystyle.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+		
+			#head1{
+			    margin: 0px auto;
+				border: 5px dashed red;
+				width: fit-content;
+				background: #000;
+				color: #FFFF;
+				font-size: 23px;
+				font-family: cursive;
+				font-weight: bold;
+               }
+			#f1
+			{
+				float:left;
+				background-color:blue;
+			}
+			#ag
+			{
+   				 border: 1px solid green;
+   				 color: lightseagreen;
+   				 background-color: darkgreen;
+   				 text-decoration: unset;
+   					 padding: 5px;
+   				 margin-left: -94px;
+				 margin-top: 4455px;
+			}
+			#eq1
+			{
+    		float: right;
+    		margin-right: 589px;
+    		background-color: green;
+    		border: 2px solid red;
+    		margin-top: 18px;
+			}
+			form
+			{
+    		margin-right: 274px;
+    		margin-top: 157px;
+			margin-left: 376px;
+			}
+		</style>
+		<script src="myscript.js"></script>
+	</head>
+    
+    <div id="di1">
+	    <h1 id="hh">GREEN VALEY SCHOOL</h1>
+        <h2 id="hhc">Jhanjharpur Madhubani</h2>
+        
+    
+        <div id="menu">
+		<ul>
+        
+	    	  <li><a  href="school.html">home</a></li>
+  <li ><a  href="about.html">about us</a>
+              		<ul >
+              			<li><a href="ourmission.html">our mission</a></li>
+                        <li><a href="ourvision.html">Our vision</a></li>
+                		<li><a href="ourmanagement.html">Our Managemen</a></li>
+              		</ul></li>
+          <li><a  href="academics.html">academics</a></li>
+    	  <li><a  href="activities.html">activities</a></li>
+    	  <li><a  href="gallery.html">Gallery</a></li>
+   	  <li><a  href="contact_us.html">contact us</a>
+              	<ul >
+                	<li id="ll1"><a href="admission_enquiry.html"> Admission Enquiry</a></li>
+                    <li><a href="parent_login.html">Parent Lgin</a></li>
+                    <li><a href="School_login.html">School Login</a></li>
+                    <li><a href="Admin_login.html">Admin Login</a></li>
+                </ul></li>
+		</ul>
+        </div>
+    </div>
+	<body>
+        <h1 id="eq1">ENQUIRY FORM FOR ADMISSION</h1>
+		<form action="sb.php" method="post" onSubmit="return validation()">
+			<table>
+				<tr>
+					<td id="t1">name</td>
+					<td><input type="varchar" name="name" placeholder="name"/></td>
+				</tr>
+				<tr>
+					<td>email </td>
+					<td ><input type="varchar" name="email" placeholder="username"/></td>
+				</tr>
+				<tr>
+					<td>password </td>
+					<td><input type="varchar" name="password" placeholder="password"/></td>
+				</tr>
+				<tr>
+					<td>gender</td>
+					<td><input type="radio" name="gender" value="M"/>M<input type="radio" name="gender" value="f"/>f</td>
+				</tr>
+				<tr>
+					<td>class</td>
+					<td>
+					    <select  name="class" id="class">
+							<option  value="1"> 1</option>
+							<option  value="2">2</option>
+							<option  value="3">3</option>
+                            
+							<option  value="4"> 4</option>
+							<option  value="5">5</option>
+							<option  value="6">6</option>
+                            
+							<option  value="7"> 7</option>
+							<option  value="8">8</option>
+							<option  value="9">9</option>
+                            
+							<option  value="10">10</option>
+						</select>
+					</td>
+					</tr>
+					<tr>
+					<td>branch</td>
+					<td>
+						<select name="branch" id="carrier" >
+							<option  value="jhanjharour">jhanjharpur</option>
+							<option value="madhubani">madhubani</OPTION>
+							<option  value="darbhanga">darbhanga</option>
+							<option value="muzaffarpur">muzaffarpur</OPTION>  
+							<option value="samastipur">samastipur</OPTION>
+							<option value="motihari">motihari</OPTION>
+							<option value="patna">patna</OPTION>
+						</select>
+					</td>
+				</tr>
+				<tr>	
+					<td><input type="submit" value="register"/></td>
+					<td><input type="reset" ></td>
+					<td><a id="ag" href="show_data.html">show status</a></td>
+					
+				</tr>
+			</table>
+		</form>
+		<!-- <form id="f1">
+			<input type="button" value="show data" onclick="window.location.href='show_data.html'" />
+		</form> -->
+	</body>
+</html>
