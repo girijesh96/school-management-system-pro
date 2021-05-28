@@ -1,0 +1,194 @@
+#logo1
+{
+margin-top:23px;
+margin-left:13px;
+}
+#di1 
+	{
+    background-color: #B40303;
+    height: 191px;
+    width: 1339px;
+	}
+			
+
+#hh {
+    margin: 0px auto;
+    width: initial;
+    color: green;
+    font-size: 49px;
+    font-weight: bold;
+    margin-left: 205px;
+    margin-top: -117px;
+    padding-bottom: 3px;
+}
+	#hhc
+	{
+    font-size: 29px;
+    margin-left: 218px;
+    margin-top: -2px;
+	}
+#menu ul
+{
+list-style:none;
+}
+#menu ul li {
+    background-color: #00FF00;
+    height: 44px;
+    float: left;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    margin-left: 1px;
+    font-size: 15px;
+}
+#menu ul li ul li {
+    background-color: #00FF00;
+    height: fit-content;
+    float: left;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    margin-left: -40px;
+    font-size: 12px;
+    padding: 0px;
+    display: block;
+    width: 139px;
+}
+
+#menu ul li a
+{
+color:white;
+text-decoration:none;
+display:block;
+}
+
+#menu ul li a:hover
+{
+background-color:#FF0000;
+}
+
+#menu ul ul
+{
+margin-left:0px;
+padding:opx;
+position:absolute;
+display:none;
+}
+#menu ul li ul #pppp1
+{
+	margin:0px;
+	padding:0px;
+}
+ #menu ul li:hover>ul
+{
+display:block;
+margin-left:0px;
+display:block;
+width:1px;
+height:30px;
+
+}
+#menu ul ul ul
+{
+  margin-left:px;
+  position:relative;
+}
+#menu ul li .drop1 li{
+display:none;
+background-color:#33FF00;
+width:40px;
+}
+#menu ul li ul li ul
+{
+position:absolute;
+left:139px;
+top:0px;
+
+}
+body
+{
+width-100%;
+background-color:aquamarine;
+}
+
+		   #hh1{
+		   			
+    			text-align: center;
+    			margin-top: -1831px;
+    			float: right;
+    			font-size: 41px;
+    			height: 48px;
+    			width: 184px;
+    			margin-right: 144px;
+  				  background-color: green;
+				min-height: fit-content;
+               }
+			   
+			#hh7 
+			{	
+					text-align: right;
+    				margin-top: -1762px;
+   					 float: right;
+					font-size: 21px;
+    				width: 17px;
+					color: #666666;
+					margin-right: 303px;
+		
+			}
+			
+			#a12
+			{
+						
+    			text-align: right;
+				margin-top: -1740px;
+    			float: right;
+				margin-right: 303px;
+    			font-size: 17px;
+				width: 17px;
+    			height: -18px;
+    			color: darkred;
+			}
+			#p9
+			{
+					font-size:22px;				
+   				 text-align: right;
+				margin-top: -1722px;
+    			float: right;
+				margin-right: 300px;
+			    width: 17px;
+    			height: -18px;
+    			color: black;
+			}
+			#p10{
+					text-align: right;
+					margin-top: -1692px;
+   				 float: right;
+   				 margin-right: 301px;
+				 font-size: 20px;
+    			width: 17px;
+    			height: -18px;
+    			color: brown;
+ 				}
+			#p11 
+			{
+    				text-align: right;
+    				margin-top: -1669px;
+    				float: right;
+    				margin-right: 308px;
+    				font-size: 25px;
+    				width: 17px;
+    				height: -18px;
+    				color: #666666;
+			}
+			#p12
+			{
+				
+   			 text-align: right;
+			 margin-top: -1635px;
+   			 float: right;
+   			 margin-right: 172px;
+    		margin-left: 4561px;
+    		width: 200px;
+    		height: px;
+    		color: brown;
+			}
